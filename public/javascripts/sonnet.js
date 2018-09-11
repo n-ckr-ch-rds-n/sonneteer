@@ -1,13 +1,24 @@
 var Alexandrine = require('./alexandrine.js');
 var randomWords = require('random-words');
 
-class Sonnet {
+module.exports = class Sonnet {
   constructor(linemodel = new Alexandrine()) {
     this._linemodel = linemodel;
     this._rhymeA = randomWords();
     this._rhymeB = randomWords();
     this._rhymeC = randomWords();
     this._rhymeD = randomWords();
+  }
+
+  getTitle() {
+    const title = [];
+    const titlefirstword = randomWords();
+    const titlesecondword = randomWords();
+    const titlethirdword = randomWords();
+    title.push(titlefirstword.toUpperCase());
+    title.push(titlesecondword.toUpperCase());
+    title.push(titlethirdword.toUpperCase());
+    return title.join(' ');
   }
 
   async quatrain() {
@@ -42,17 +53,14 @@ class Sonnet {
 
   async compose() {
     const sonnet = [];
+    const title = this.getTitle();
+    sonnet.push(title);
     const firstquatrain = await this.quatrain();
     const secondquatrain = await this.quatrain();
     const tercets = await this.tercets();
     sonnet.push(firstquatrain);
     sonnet.push(secondquatrain);
     sonnet.push(tercets);
-    console.log(sonnet);
     return sonnet;
   }
 }
-
-var sonnet = new Sonnet();
-
-sonnet.compose();
