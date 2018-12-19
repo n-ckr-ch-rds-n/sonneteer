@@ -1,17 +1,18 @@
 const randomWords = require('random-words');
 const syllable = require('syllable');
 
-class AlexandrineGenerator {
+module.exports = class AlexandrineGenerator {
 
-    getLine(lineEnd, lineLength) {
-        let line = [lineEnd];
+    getLine(lineEndWord, lineLength) {
+        let line = [lineEndWord];
         do { if (this.countSyllables(line) < lineLength) {
                 line.unshift(this.getRandomWord());
             } else if (this.countSyllables(line) > lineLength) {
                 line.shift();
             } }
         while(this.countSyllables(line) !== lineLength);
-        return line;
+        line[0] = line[0].charAt(0).toUpperCase() + line[0].substr(1);
+        return line.map(word => word.replace(/[^a-z]/gi, '')).join(" ");
     }
 
     getRandomWord() {
@@ -22,6 +23,3 @@ class AlexandrineGenerator {
         return syllable(lineArray);
     }
 }
-
-const ag = new AlexandrineGenerator();
-console.log(ag.getLine("log", 12));

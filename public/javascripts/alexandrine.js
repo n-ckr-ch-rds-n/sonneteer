@@ -1,6 +1,7 @@
-var syllable = require('syllable');
+// var syllable = require('syllable');
 var randomWords = require('random-words');
 var rhyme = require('rhyme');
+import {syllable} from "syllable";
 
 module.exports = class Alexandrine {
 
