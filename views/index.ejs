@@ -1,32 +1,15 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link href="https://fonts.googleapis.com/css?family=Radley" rel="stylesheet">
-  </head>
-  <body>
-    <div class="sonnet">
-      <%= sonnet %>
-      <div class='firstquatrain'>
-        <% sonnet[1].forEach((line) => { %>
-          <p><%= line %><p>
+</head>
+<body>
+<div class="sonnet">
+    <% sonnet.forEach((line) => { %>
+        <p><%= line %><p>
         <% }) %>
-      </div><br>
-      <div class='secondquatrain'>
-        <% sonnet[2].forEach((line) => { %>
-          <p><%= line %><p>
-        <% }) %>
-      </div><br>
-      <div class='tercets'>
-        <p><%= sonnet[3][0] %></p>
-        <p><%= sonnet[3][1] %></p>
-        <p><%= sonnet[3][2] %></p>
-        <br>
-        <p><%= sonnet[3][3] %></p>
-        <p><%= sonnet[3][4] %></p>
-        <p><%= sonnet[3][5] %></p>
-      </div>
-    </div>
-  </body>
+</div>
+</body>
 </html>
