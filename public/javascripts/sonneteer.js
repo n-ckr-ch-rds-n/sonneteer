@@ -1,7 +1,7 @@
 const AlexandrineGenerator = require("./alexandrine-generator");
 const RhymeGenerator = require("./rhyme-generator");
 
-class Sonneteer {
+module.exports = class Sonneteer {
 
     constructor(rhymeScheme, lineLength) {
         this.alexandrineGenerator = new AlexandrineGenerator();
@@ -22,6 +22,3 @@ class Sonneteer {
     }
 
 }
-
-const sonneteer = new Sonneteer("12345667", 5);
-console.log(sonneteer.composeSonnet());
