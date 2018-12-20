@@ -1,10 +1,10 @@
 const rhymes = require('rhymes');
-const AlexandrineGenerator = require("./alexandrine-generator");
+const LineGenerator = require("./alexandrine-generator");
 
 module.exports = class RhymeGenerator {
 
     constructor() {
-        this.alexandrineGenerator = new AlexandrineGenerator();
+        this.lineGenerator = new LineGenerator();
     }
 
     generateRhymes(wordToRhyme) {
@@ -14,7 +14,7 @@ module.exports = class RhymeGenerator {
     getRhymeSets(rhymeScheme) {
         const wordsToRhyme = {};
         for (const rhyme of rhymeScheme.split("")) {
-            const rhymeWord = this.alexandrineGenerator.getRandomWord();
+            const rhymeWord = this.lineGenerator.getRandomWord();
             wordsToRhyme[rhyme] = this.generateRhymes(rhymeWord);
         }
         return wordsToRhyme;

@@ -1,7 +1,7 @@
 const randomWords = require('random-words');
 const syllable = require('syllable');
 
-module.exports = class AlexandrineGenerator {
+module.exports = class LineGenerator {
 
     getLine(lineEndWord, lineLength) {
         let line = [lineEndWord];
