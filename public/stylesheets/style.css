@@ -25,7 +25,7 @@ a {
 }
 
 .controls {
-    flex: auto;
+    flex-shrink: 1;
     font-size: 1em;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.11);
@@ -41,6 +41,7 @@ a {
 }
 
 .form_label {
+    overflow-wrap: normal;
     max-width: 25%;
 }
 
