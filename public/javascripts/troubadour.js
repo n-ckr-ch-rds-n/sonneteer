@@ -1,7 +1,7 @@
-const LineGenerator = require("./alexandrine-generator");
+const LineGenerator = require("./line-generator");
 const RhymeGenerator = require("./rhyme-generator");
 
-module.exports = class Sonneteer {
+module.exports = class Troubadour {
 
     constructor(rhymeScheme, lineLength) {
         this.lineGenerator = new LineGenerator();
@@ -10,15 +10,15 @@ module.exports = class Sonneteer {
         this.lineLength = lineLength;
     }
 
-    composeSonnet() {
+    composePoem() {
         const rhymeSets = this.rhymeGenerator.getRhymeSets(this.rhymeScheme);
-        const sonnet = [];
+        const poem = [];
         for (const rhyme of this.rhymeScheme.split("")) {
             const selector = Math.floor(Math.random() * rhymeSets[rhyme].length);
             const lineEndWord = rhymeSets[rhyme][selector];
-            sonnet.push(this.lineGenerator.getLine(lineEndWord, this.lineLength));
+            poem.push(this.lineGenerator.getLine(lineEndWord, this.lineLength));
         }
-        return sonnet;
+        return {title: this.lineGenerator.getTitle(), poem};
     }
 
 }

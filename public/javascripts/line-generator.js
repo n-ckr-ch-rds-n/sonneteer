@@ -15,6 +15,15 @@ module.exports = class LineGenerator {
         return line.map(word => word.replace(/[^a-z]/gi, '')).join(" ");
     }
 
+    getTitle() {
+        const titleLength = Math.floor(Math.random() * 5) + 1;
+        const title = [];
+        for (const position of Array(titleLength).keys()) {
+            title.push(this.getRandomWord().toUpperCase());
+        }
+        return title.join(" ");
+    }
+
     getRandomWord() {
         return randomWords();
     }

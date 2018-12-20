@@ -1,5 +1,5 @@
 const rhymes = require('rhymes');
-const LineGenerator = require("./alexandrine-generator");
+const LineGenerator = require("./line-generator");
 
 module.exports = class RhymeGenerator {
 

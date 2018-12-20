@@ -1,6 +1,6 @@
-# Sonneteer
+# Troubadour
 
-Sonneteer generates sonnets! Each line is a perfect Alexandrine of 12 syllables. Currently each sonnet has the rhyme scheme ABBA, ABBA, CDC, CDD. But it is a work in progress! Soon users will be able to choose their own rhyme schemes!!!
+Troubadour generates sonnets! Each line is a perfect Alexandrine of 12 syllables. Currently each sonnet has the rhyme scheme ABBA, ABBA, CDC, CDD. But it is a work in progress! Soon users will be able to choose their own rhyme schemes!!!
 
 ![ScreenShot](public/images/ScreenShot.png)
 ### Technologies Used

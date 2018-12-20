@@ -6,8 +6,9 @@
     <link href="https://fonts.googleapis.com/css?family=Radley" rel="stylesheet">
 </head>
 <body>
-<div class="sonnet">
-    <% sonnet.forEach((line) => { %>
+<div class="poem">
+    <h1><%= poem.title %></h1>
+    <% poem.poem.forEach((line) => { %>
         <p><%= line %><p>
         <% }) %>
 </div>

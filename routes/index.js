@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
-var Sonneteer = require('../public/javascripts/sonneteer.js');
+var Troubadour = require('../public/javascripts/troubadour.js');
 
 router.get('/', function(req, res, next) {
-  const sonneteer = new Sonneteer("ABAB", 5);
-  const sonnet = sonneteer.composeSonnet();
-  res.render('index', { title: 'Sonneteer', sonnet: sonnet });
+  const troubadour = new Troubadour("ABAB", 5);
+  const poem = troubadour.composePoem();
+  res.render('index', { title: 'Troubadour', poem });
 });
 
 module.exports = router;
