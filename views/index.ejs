@@ -12,5 +12,14 @@
         <p><%= line %><p>
         <% }) %>
 </div>
+<div>
+    <form action="/" method="post">
+        <label for="rhyme_scheme">Rhyme Scheme: </label>
+        <input id="rhyme_scheme" type="text" name="rhyme_scheme" value=<%= rhymeScheme %> maxlength="50">
+        <label for="line_length">Line Length: </label>
+        <input id="line_length" type="number" name="line_length" value=<%= lineLength %> min="0" max="100">
+        <input type="submit" value="Generate">
+    </form>
+</div>
 </body>
 </html>

@@ -6,17 +6,15 @@ module.exports = class Troubadour {
     constructor(rhymeScheme, lineLength) {
         this.lineGenerator = new LineGenerator();
         this.rhymeGenerator = new RhymeGenerator();
-        this.rhymeScheme = rhymeScheme;
-        this.lineLength = lineLength;
     }
 
-    composePoem() {
-        const rhymeSets = this.rhymeGenerator.getRhymeSets(this.rhymeScheme);
+    composePoem(rhymeScheme, lineLength) {
+        const rhymeSets = this.rhymeGenerator.getRhymeSets(rhymeScheme);
         const poem = [];
-        for (const rhyme of this.rhymeScheme.split("")) {
+        for (const rhyme of rhymeScheme.split("")) {
             const selector = Math.floor(Math.random() * rhymeSets[rhyme].length);
             const lineEndWord = rhymeSets[rhyme][selector];
-            poem.push(this.lineGenerator.getLine(lineEndWord, this.lineLength));
+            poem.push(this.lineGenerator.getLine(lineEndWord, lineLength));
         }
         return {title: this.lineGenerator.getTitle(), poem};
     }
