@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7cfe6c1-305f-46e3-8572-e9aeffc2f6d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/quill-drawing-a-line.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,41 +31,47 @@
           <entry key="ejs" value="2" />
           <entry key="js" value="9" />
           <entry key="json" value="1" />
+          <entry key="md" value="1" />
+          <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
           <entry key="EJS" value="2" />
+          <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="9" />
+          <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="703" />
-          <entry key="ejs" value="494" />
+          <entry key="css" value="705" />
+          <entry key="ejs" value="495" />
           <entry key="js" value="4032" />
-          <entry key="txt" value="271" />
+          <entry key="md" value="295" />
+          <entry key="txt" value="283" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="703" />
-          <entry key="EJS" value="494" />
+          <entry key="CSS" value="705" />
+          <entry key="EJS" value="495" />
           <entry key="JavaScript" value="4032" />
-          <entry key="PLAIN_TEXT" value="271" />
+          <entry key="Markdown" value="295" />
+          <entry key="PLAIN_TEXT" value="283" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="-7">
+              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -74,8 +79,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="360">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -125,8 +142,9 @@
         <option value="$PROJECT_DIR$/public/javascripts/line-generator.js" />
         <option value="$PROJECT_DIR$/public/javascripts/troubadour.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -149,8 +167,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-73" />
     <option name="y" value="-1019" />
-    <option name="width" value="1169" />
-    <option name="height" value="719" />
+    <option name="width" value="1586" />
+    <option name="height" value="837" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -169,12 +187,6 @@
               <item name="sonneteer" type="b2602c69:ProjectViewProjectNode" />
               <item name="sonneteer" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sonneteer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sonneteer" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sonneteer" type="b2602c69:ProjectViewProjectNode" />
@@ -237,7 +249,7 @@
       <workItem from="1545298035705" duration="10942000" />
       <workItem from="1545318274100" duration="579000" />
       <workItem from="1545396179531" duration="3000" />
-      <workItem from="1545403600370" duration="2005000" />
+      <workItem from="1545403600370" duration="3645000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor sonnet generation class">
       <created>1545263880166</created>
@@ -288,17 +300,31 @@
       <option name="project" value="LOCAL" />
       <updated>1545405044688</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Switch to column layout on narrow viewports">
+      <created>1545405929711</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545405929711</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add meta tag">
+      <created>1545406434559</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545406434559</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27446000" />
+    <option name="totallyTimeSpent" value="29086000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-73" y="-1019" width="1169" height="719" extended-state="0" />
+    <frame x="-73" y="-1019" width="1586" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30836236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22619808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -312,7 +338,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40669855" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34228188" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -333,7 +359,8 @@
     <MESSAGE value="Styled page" />
     <MESSAGE value="Resolve flex-shrink on controls" />
     <MESSAGE value="Switch to column layout on narrow viewports" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switch to column layout on narrow viewports" />
+    <MESSAGE value="Add meta tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add meta tag" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/javascripts/alexandrine.js" />
@@ -383,17 +410,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/public/images/quill-drawing-a-line.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="-7">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

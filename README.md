@@ -1,12 +1,10 @@
-# Troubadour
-
-Troubadour generates sonnets! Each line is a perfect Alexandrine of 12 syllables. Currently each sonnet has the rhyme scheme ABBA, ABBA, CDC, CDD. But it is a work in progress! Soon users will be able to choose their own rhyme schemes!!!
+# Sonneteer
 
 ![ScreenShot](public/images/ScreenShot.png)
-### Technologies Used
 
-The app is built in Node and EJS. I also used a rhyming dictionary API, and the NPM packages [syllable](https://www.npmjs.com/package/syllable) and [random-words](https://www.npmjs.com/package/random-words). Testing (still in progress) is in Jest.
+Sonneteer generates poems! Users choose their own rhyme scheme and line lengths, then press 'Generate' and hey presto, a readymade literary masterwork appears onscreen.
 
-To run on your machine, clone the repo, `npm install`, `npm start` and navigate to localhost:3000.
+The app is built with Node.js, Express and these libraries: [Rhymes](https://github.com/words/rhymes), [Syllable](https://www.npmjs.com/package/syllable) and [Random-Words](https://www.npmjs.com/package/random-words). 
 
-Alternatively, experience the app on Heroku!
+The app is deployed to [Heroku](https://sonneteer.herokuapp.com/).
+To run it locally, clone the repo, `npm install`, `npm start` and navigate to localhost:3000.
