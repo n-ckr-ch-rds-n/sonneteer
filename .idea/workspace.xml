@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7cfe6c1-305f-46e3-8572-e9aeffc2f6d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/line-generator.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,19 +31,19 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="ejs" value="2" />
-          <entry key="js" value="9" />
+          <entry key="js" value="12" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="png" value="1" />
+          <entry key="png" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
           <entry key="EJS" value="2" />
-          <entry key="Image" value="1" />
+          <entry key="Image" value="2" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="9" />
+          <entry key="JavaScript" value="12" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
@@ -49,7 +51,8 @@
         <counts>
           <entry key="css" value="705" />
           <entry key="ejs" value="495" />
-          <entry key="js" value="4032" />
+          <entry key="js" value="5193" />
+          <entry key="json" value="17" />
           <entry key="md" value="295" />
           <entry key="txt" value="283" />
         </counts>
@@ -58,7 +61,8 @@
         <counts>
           <entry key="CSS" value="705" />
           <entry key="EJS" value="495" />
-          <entry key="JavaScript" value="4032" />
+          <entry key="JSON" value="17" />
+          <entry key="JavaScript" value="5193" />
           <entry key="Markdown" value="295" />
           <entry key="PLAIN_TEXT" value="283" />
         </counts>
@@ -80,17 +84,17 @@
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
               </first_editor>
               <second_editor />
             </state>
@@ -98,10 +102,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/images/ScreenShot.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -110,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -118,8 +127,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="90">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/line-generator.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/line-generator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/troubadour.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -133,7 +169,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/public/javascripts/rhyme.generator.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/javascripts/aexandrine-generator.js" />
         <option value="$PROJECT_DIR$/public/javascripts/alexandrine.js" />
         <option value="$PROJECT_DIR$/public/javascripts/rhyme-generator.js" />
@@ -145,6 +180,8 @@
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/test/line-generator.test.js" />
       </list>
     </option>
   </component>
@@ -192,12 +229,23 @@
               <item name="sonneteer" type="b2602c69:ProjectViewProjectNode" />
               <item name="sonneteer" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sonneteer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sonneteer" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sonneteer" type="b2602c69:ProjectViewProjectNode" />
               <item name="sonneteer" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sonneteer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sonneteer" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sonneteer" type="b2602c69:ProjectViewProjectNode" />
@@ -212,6 +260,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -233,6 +282,102 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Mocha.LineGenerator.#getTitle()">
+    <configuration name="LineGenerator.#getTitle()" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/line-generator.test.js</test-file>
+      <test-names>
+        <name value="LineGenerator" />
+        <name value="#getTitle()" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="LineGenerator.#getTitle().Generates a poem title" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/line-generator.test.js</test-file>
+      <test-names>
+        <name value="LineGenerator" />
+        <name value="#getTitle()" />
+        <name value="Generates a poem title" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="LineGenerator.getLine(lineEndWord, lineLength)" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/line-generator.test.js</test-file>
+      <test-names>
+        <name value="LineGenerator" />
+        <name value="getLine(lineEndWord, lineLength)" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Generates a line of a given length" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/line-generator.test.js</test-file>
+      <test-names>
+        <name value="LineGenerator" />
+        <name value="getLine(lineEndWord, lineLength)" />
+        <name value="Generates a line of a given length" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Generates a line with a given number of syllables" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/line-generator.test.js</test-file>
+      <test-names>
+        <name value="LineGenerator" />
+        <name value="getLine(lineEndWord, lineLength)" />
+        <name value="Generates a line with a given number of syllables" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength).Generates a line of a given length" />
+      <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength)" />
+      <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength).Generates a line with a given number of syllables" />
+      <item itemvalue="Mocha.LineGenerator.#getTitle().Generates a poem title" />
+      <item itemvalue="Mocha.LineGenerator.#getTitle()" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.LineGenerator.#getTitle()" />
+        <item itemvalue="Mocha.LineGenerator.#getTitle().Generates a poem title" />
+        <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength).Generates a line with a given number of syllables" />
+        <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength)" />
+        <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength).Generates a line of a given length" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -249,7 +394,7 @@
       <workItem from="1545298035705" duration="10942000" />
       <workItem from="1545318274100" duration="579000" />
       <workItem from="1545396179531" duration="3000" />
-      <workItem from="1545403600370" duration="3645000" />
+      <workItem from="1545403600370" duration="7135000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor sonnet generation class">
       <created>1545263880166</created>
@@ -317,20 +462,52 @@
     <option name="localTasksCounter" value="10" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Puts_the_given_string_as_the_last_word_in_the_line - 2018.12.21 at 16h 35m 31s.xml">
+      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Puts the given string as the last word in the line" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Puts_the_given_string_as_the_last_word_in_the_line - 2018.12.21 at 16h 35m 42s.xml">
+      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Puts the given string as the last word in the line" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Puts_the_given_string_as_the_last_word_in_the_line - 2018.12.21 at 16h 39m 38s.xml">
+      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Puts the given string as the last word in the line" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Generates_a_line_of_a_given_length - 2018.12.21 at 16h 39m 51s.xml">
+      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Generates a line of a given length" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Generates_a_line_of_a_given_length - 2018.12.21 at 16h 44m 07s.xml">
+      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Generates a line of a given length" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength) - 2018.12.21 at 16h 44m 47s.xml">
+      <configuration name="LineGenerator.getLine(lineEndWord, lineLength)" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Generates_a_line_with_a_given_number_of_syllables - 2018.12.21 at 16h 45m 23s.xml">
+      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Generates a line with a given number of syllables" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="LineGenerator_#getTitle()_Generates_a_poem_title - 2018.12.21 at 16h 51m 02s.xml">
+      <configuration name="LineGenerator.#getTitle().Generates a poem title" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="LineGenerator_#getTitle()_Generates_a_poem_title - 2018.12.21 at 16h 54m 48s.xml">
+      <configuration name="LineGenerator.#getTitle().Generates a poem title" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="LineGenerator_#getTitle() - 2018.12.21 at 16h 55m 06s.xml">
+      <configuration name="LineGenerator.#getTitle()" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29086000" />
+    <option name="totallyTimeSpent" value="32576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-73" y="-1019" width="1586" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22619808" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22619808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882273" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,7 +515,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34228188" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34228188" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -365,13 +542,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/javascripts/alexandrine.js" />
     <entry file="file://$PROJECT_DIR$/public/javascripts/sonnet.js" />
-    <entry file="file://$PROJECT_DIR$/public/javascripts/line-generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/error.ejs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -379,34 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/troubadour.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -423,17 +565,62 @@
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/ScreenShot.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/troubadour.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/line-generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/line-generator.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
         </state>
       </provider>
     </entry>
