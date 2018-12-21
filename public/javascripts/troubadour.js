@@ -3,7 +3,7 @@ const RhymeGenerator = require("./rhyme-generator");
 
 module.exports = class Troubadour {
 
-    constructor(rhymeScheme, lineLength) {
+    constructor() {
         this.lineGenerator = new LineGenerator();
         this.rhymeGenerator = new RhymeGenerator();
     }
