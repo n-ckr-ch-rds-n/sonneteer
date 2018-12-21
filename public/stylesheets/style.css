@@ -8,6 +8,13 @@ a {
     color: #00B7FF;
 }
 
+.header {
+    color: darkcyan;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 0;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -17,6 +24,13 @@ a {
     border-color: rgba(0, 0, 0, 0.11);
     background-color: white;
     padding: 20px;
+    min-width: 650px;
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        flex-direction: column;
+    }
 }
 
 .poem {
@@ -29,6 +43,7 @@ a {
     font-size: 1em;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.11);
+    margin-right: 30px;
 }
 
 .input_field {
@@ -36,7 +51,7 @@ a {
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: large;
-    color: blue;
+    color: darkcyan;
     width: 80%;
 }
 
@@ -47,10 +62,10 @@ a {
 
 .generate_button {
     text-align: center;
-    width: 80%;
-    height: 50%;
+    width: 85%;
+    height: 50px;
     color: black;
-    background-color: rgba(0, 0, 0, 0.11);
-    font-size: 0.8em;
+    background-color: darkcyan;
+    font-size: 0.9em;
     margin-top: 5%;
 }
