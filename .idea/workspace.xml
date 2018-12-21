@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7cfe6c1-305f-46e3-8572-e9aeffc2f6d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/line-generator.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/rhyme-generator.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/line-generator.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/line-generator.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +30,7 @@
         <counts>
           <entry key="css" value="1" />
           <entry key="ejs" value="2" />
-          <entry key="js" value="12" />
+          <entry key="js" value="14" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
           <entry key="png" value="2" />
@@ -43,7 +42,7 @@
           <entry key="EJS" value="2" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="12" />
+          <entry key="JavaScript" value="14" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
@@ -51,10 +50,10 @@
         <counts>
           <entry key="css" value="705" />
           <entry key="ejs" value="495" />
-          <entry key="js" value="5193" />
+          <entry key="js" value="5836" />
           <entry key="json" value="17" />
           <entry key="md" value="295" />
-          <entry key="txt" value="283" />
+          <entry key="txt" value="317" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -62,33 +61,15 @@
           <entry key="CSS" value="705" />
           <entry key="EJS" value="495" />
           <entry key="JSON" value="17" />
-          <entry key="JavaScript" value="5193" />
+          <entry key="JavaScript" value="5836" />
           <entry key="Markdown" value="295" />
-          <entry key="PLAIN_TEXT" value="283" />
+          <entry key="PLAIN_TEXT" value="317" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -107,37 +88,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+        <entry file="file://$PROJECT_DIR$/test/line-generator.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="180">
+              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/line-generator.test.js">
+        <entry file="file://$PROJECT_DIR$/test/rhyme-generator.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="397">
+              <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/rhyme-generator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -182,6 +154,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/test/line-generator.test.js" />
+        <option value="$PROJECT_DIR$/test/rhyme-generator.test.js" />
       </list>
     </option>
   </component>
@@ -282,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.LineGenerator.#getTitle()">
+  <component name="RunManager" selected="Mocha.RhymeGenerator.#getRhymeSets()">
     <configuration name="LineGenerator.#getTitle()" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -298,7 +271,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="LineGenerator.#getTitle().Generates a poem title" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="LineGenerator.#getTitle().Generates a poem title with a random length" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -310,11 +283,27 @@
       <test-names>
         <name value="LineGenerator" />
         <name value="#getTitle()" />
-        <name value="Generates a poem title" />
+        <name value="Generates a poem title with a random length" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="LineGenerator.getLine(lineEndWord, lineLength)" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="RhymeGenerator.#generateRhymes().Generates an array of rhymes for a given word" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/rhyme-generator.test.js</test-file>
+      <test-names>
+        <name value="RhymeGenerator" />
+        <name value="#generateRhymes()" />
+        <name value="Generates an array of rhymes for a given word" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="RhymeGenerator.#getRhymeSets()" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -322,14 +311,14 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/line-generator.test.js</test-file>
+      <test-file>$PROJECT_DIR$/test/rhyme-generator.test.js</test-file>
       <test-names>
-        <name value="LineGenerator" />
-        <name value="getLine(lineEndWord, lineLength)" />
+        <name value="RhymeGenerator" />
+        <name value="#getRhymeSets()" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Generates a line of a given length" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="RhymeGenerator.#getRhymeSets().Generates an object containing a list of rhymes for each rhyme in the rhyme scheme" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -337,44 +326,28 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/line-generator.test.js</test-file>
+      <test-file>$PROJECT_DIR$/test/rhyme-generator.test.js</test-file>
       <test-names>
-        <name value="LineGenerator" />
-        <name value="getLine(lineEndWord, lineLength)" />
-        <name value="Generates a line of a given length" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Generates a line with a given number of syllables" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/line-generator.test.js</test-file>
-      <test-names>
-        <name value="LineGenerator" />
-        <name value="getLine(lineEndWord, lineLength)" />
-        <name value="Generates a line with a given number of syllables" />
+        <name value="RhymeGenerator" />
+        <name value="#getRhymeSets()" />
+        <name value="Generates an object containing a list of rhymes for each rhyme in the rhyme scheme" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength).Generates a line of a given length" />
-      <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength)" />
-      <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength).Generates a line with a given number of syllables" />
-      <item itemvalue="Mocha.LineGenerator.#getTitle().Generates a poem title" />
       <item itemvalue="Mocha.LineGenerator.#getTitle()" />
+      <item itemvalue="Mocha.RhymeGenerator.#generateRhymes().Generates an array of rhymes for a given word" />
+      <item itemvalue="Mocha.LineGenerator.#getTitle().Generates a poem title with a random length" />
+      <item itemvalue="Mocha.RhymeGenerator.#getRhymeSets().Generates an object containing a list of rhymes for each rhyme in the rhyme scheme" />
+      <item itemvalue="Mocha.RhymeGenerator.#getRhymeSets()" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.RhymeGenerator.#getRhymeSets()" />
+        <item itemvalue="Mocha.RhymeGenerator.#getRhymeSets().Generates an object containing a list of rhymes for each rhyme in the rhyme scheme" />
+        <item itemvalue="Mocha.LineGenerator.#getTitle().Generates a poem title with a random length" />
+        <item itemvalue="Mocha.RhymeGenerator.#generateRhymes().Generates an array of rhymes for a given word" />
         <item itemvalue="Mocha.LineGenerator.#getTitle()" />
-        <item itemvalue="Mocha.LineGenerator.#getTitle().Generates a poem title" />
-        <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength).Generates a line with a given number of syllables" />
-        <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength)" />
-        <item itemvalue="Mocha.LineGenerator.getLine(lineEndWord, lineLength).Generates a line of a given length" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +367,7 @@
       <workItem from="1545298035705" duration="10942000" />
       <workItem from="1545318274100" duration="579000" />
       <workItem from="1545396179531" duration="3000" />
-      <workItem from="1545403600370" duration="7135000" />
+      <workItem from="1545403600370" duration="8380000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor sonnet generation class">
       <created>1545263880166</created>
@@ -459,43 +432,50 @@
       <option name="project" value="LOCAL" />
       <updated>1545406434559</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Unit test line generator class">
+      <created>1545411390525</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545411390525</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Puts_the_given_string_as_the_last_word_in_the_line - 2018.12.21 at 16h 35m 31s.xml">
-      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Puts the given string as the last word in the line" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Puts_the_given_string_as_the_last_word_in_the_line - 2018.12.21 at 16h 35m 42s.xml">
-      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Puts the given string as the last word in the line" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Puts_the_given_string_as_the_last_word_in_the_line - 2018.12.21 at 16h 39m 38s.xml">
-      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Puts the given string as the last word in the line" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Generates_a_line_of_a_given_length - 2018.12.21 at 16h 39m 51s.xml">
-      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Generates a line of a given length" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Generates_a_line_of_a_given_length - 2018.12.21 at 16h 44m 07s.xml">
-      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Generates a line of a given length" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength) - 2018.12.21 at 16h 44m 47s.xml">
-      <configuration name="LineGenerator.getLine(lineEndWord, lineLength)" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="LineGenerator_getLine(lineEndWord,_lineLength)_Generates_a_line_with_a_given_number_of_syllables - 2018.12.21 at 16h 45m 23s.xml">
-      <configuration name="LineGenerator.getLine(lineEndWord, lineLength).Generates a line with a given number of syllables" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="LineGenerator_#getTitle()_Generates_a_poem_title - 2018.12.21 at 16h 51m 02s.xml">
-      <configuration name="LineGenerator.#getTitle().Generates a poem title" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="LineGenerator_#getTitle()_Generates_a_poem_title - 2018.12.21 at 16h 54m 48s.xml">
       <configuration name="LineGenerator.#getTitle().Generates a poem title" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="LineGenerator_#getTitle() - 2018.12.21 at 16h 55m 06s.xml">
       <configuration name="LineGenerator.#getTitle()" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="RhymeGenerator_#generateRhymes()_Generates_an_array_of_rhymes_for_a_given_word - 2018.12.21 at 17h 03m 11s.xml">
+      <configuration name="RhymeGenerator.#generateRhymes().Generates an array of rhymes for a given word" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="RhymeGenerator_#generateRhymes()_Generates_an_array_of_rhymes_for_a_given_word - 2018.12.21 at 17h 07m 17s.xml">
+      <configuration name="RhymeGenerator.#generateRhymes().Generates an array of rhymes for a given word" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="LineGenerator_#getTitle()_Generates_a_poem_title_with_a_random_length - 2018.12.21 at 17h 07m 38s.xml">
+      <configuration name="LineGenerator.#getTitle().Generates a poem title with a random length" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="RhymeGenerator_#getRhymeSets()_Generates_an_object_containing_a_list_of_rhymes_for_each_rhyme_in_the_rhyme_scheme - 2018.12.21 at 17h 11m 48s.xml">
+      <configuration name="RhymeGenerator.#getRhymeSets().Generates an object containing a list of rhymes for each rhyme in the rhyme scheme" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="RhymeGenerator_#getRhymeSets()_Generates_an_object_containing_a_list_of_rhymes_for_each_rhyme_in_the_rhyme_scheme - 2018.12.21 at 17h 12m 44s.xml">
+      <configuration name="RhymeGenerator.#getRhymeSets().Generates an object containing a list of rhymes for each rhyme in the rhyme scheme" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="RhymeGenerator_#getRhymeSets()_Generates_an_object_containing_a_list_of_rhymes_for_each_rhyme_in_the_rhyme_scheme - 2018.12.21 at 17h 13m 05s.xml">
+      <configuration name="RhymeGenerator.#getRhymeSets().Generates an object containing a list of rhymes for each rhyme in the rhyme scheme" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="RhymeGenerator_#getRhymeSets()_Generates_an_object_containing_a_list_of_rhymes_for_each_rhyme_in_the_rhyme_scheme - 2018.12.21 at 17h 15m 34s.xml">
+      <configuration name="RhymeGenerator.#getRhymeSets().Generates an object containing a list of rhymes for each rhyme in the rhyme scheme" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="RhymeGenerator_#getRhymeSets() - 2018.12.21 at 17h 16m 47s.xml">
+      <configuration name="RhymeGenerator.#getRhymeSets()" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32576000" />
+    <option name="totallyTimeSpent" value="33821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-73" y="-1019" width="1586" height="837" extended-state="0" />
@@ -537,20 +517,15 @@
     <MESSAGE value="Resolve flex-shrink on controls" />
     <MESSAGE value="Switch to column layout on narrow viewports" />
     <MESSAGE value="Add meta tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add meta tag" />
+    <MESSAGE value="Unit test the line generator" />
+    <MESSAGE value="Unit test line generator class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit test line generator class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/javascripts/alexandrine.js" />
     <entry file="file://$PROJECT_DIR$/public/javascripts/sonnet.js" />
     <entry file="file://$PROJECT_DIR$/views/error.ejs">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/rhyme-generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/quill-drawing-a-line.png">
       <provider selected="true" editor-type-id="images" />
@@ -619,8 +594,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/line-generator.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/rhyme-generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/rhyme-generator.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -33,7 +33,7 @@ describe('LineGenerator', () => {
 
         it('Generates a poem title with a random length', () => {
             const title = instance.getTitle();
-            expect(title).to.be.a.string;
+            expect(title).to.be.a('string');
 
             const testTitles = [];
             for (const i of Array(100).keys()) {
