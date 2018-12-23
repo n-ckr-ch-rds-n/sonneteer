@@ -30,7 +30,7 @@ describe('Troubadour', () => {
         it("The title's length is randomly generated", () => {
             const comparisonTitles = [];
             for (const key of Array(3).keys()) {
-                comparisonPoem = instance.composePoem("ABBA", 12);
+                const comparisonPoem = instance.composePoem("ABBA", 12);
                 comparisonTitles.push(comparisonPoem.title);
             }
             expect(comparisonTitles.some(title => title.length !== poem.title.length)).to.equal(true);
