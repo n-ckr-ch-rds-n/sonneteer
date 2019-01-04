@@ -18,12 +18,12 @@
         <input class="generate_button" type="submit" value="Generate">
     </form>
 </div>
-<div class="container">
+<div class="poem_container">
     <div class="poem">
-        <h1><%= poem.title %></h1>
+        <h2><%= poem.title %></h2>
         <% poem.poem.forEach((line) => { %>
-            <p><%= line %><p>
-            <% }) %>
+            <%= line %><br>
+        <% }) %>
     </div>
 </div>
 </body>
