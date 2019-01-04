@@ -9,21 +9,21 @@
 </head>
 <body>
 <h1 class="header">Sonneteer</h1>
+<div class="controls">
+    <form action="/" method="post">
+        <label class="form_label" for="rhyme_scheme">Rhyme Scheme: </label>
+        <input class="input_field" id="rhyme_scheme" type="text" name="rhyme_scheme" value=<%= rhymeScheme %> maxlength="50">
+        <label class="form_label" for="line_length">Line Length: </label>
+        <input class="input_field" id="line_length" type="number" name="line_length" value=<%= lineLength %> min="0" max="100">
+        <input class="generate_button" type="submit" value="Generate">
+    </form>
+</div>
 <div class="container">
     <div class="poem">
         <h1><%= poem.title %></h1>
         <% poem.poem.forEach((line) => { %>
             <p><%= line %><p>
             <% }) %>
-    </div>
-    <div class="controls">
-        <form action="/" method="post">
-            <label class="form_label" for="rhyme_scheme">Rhyme Scheme: </label><br>
-            <input class="input_field" id="rhyme_scheme" type="text" name="rhyme_scheme" value=<%= rhymeScheme %> maxlength="50"><br>
-            <label class="form_label" for="line_length">Line Length: </label><br>
-            <input class="input_field" id="line_length" type="number" name="line_length" value=<%= lineLength %> min="0" max="100"><br>
-            <input class="generate_button" type="submit" value="Generate">
-        </form>
     </div>
 </div>
 </body>

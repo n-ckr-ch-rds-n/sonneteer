@@ -4,7 +4,7 @@
 }
 
 body {
-    padding: 50px;
+    /*padding: 50px;*/
     font-family: 'Radley', serif;
     background-color: white;
 }
@@ -15,7 +15,7 @@ a {
 
 .header {
     font-family: "Quilted Butterfly";
-    color: darkcyan;
+    color: #006060;
     text-align: center;
     font-size: 5em;
     margin-top: 0;
@@ -25,9 +25,9 @@ a {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(0, 0, 0, 0.11);
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    /*border-color: rgba(0, 0, 0, 0.11);*/
     background-color: white;
     padding: 20px;
     min-width: 640px;
@@ -45,33 +45,45 @@ a {
 }
 
 .controls {
-    flex-shrink: 1;
-    font-size: 1em;
-    padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.11);
-    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.11);
+    padding-bottom: 30px;
 }
 
 .input_field {
-    padding: 1%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    height: auto;
     font-size: large;
-    color: darkcyan;
-    width: 80%;
+    color: #006060;
+    margin-right: 30px;
+    margin-left: 5px;
 }
 
 .form_label {
-    overflow-wrap: normal;
-    max-width: 25%;
+    font-size: 20px;
 }
 
 .generate_button {
     text-align: center;
-    width: 85%;
-    height: 50px;
     color: black;
-    background-color: darkcyan;
-    font-size: 0.9em;
-    margin-top: 5%;
+    color: #006060;
+    border-style: outset;
+    border-radius: 20px;
+    border-color: #0066A2;
+    height: 50px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow:none;
+}
+
+.generate_button:hover {
+    background-color: #006060;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
 }
