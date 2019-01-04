@@ -1,7 +1,12 @@
+@font-face {
+    font-family: "Quilted Butterfly";
+    src: url("DK Quilted Butterfly.ttf");
+}
+
 body {
     padding: 50px;
     font-family: 'Radley', serif;
-    background-color: rgba(255, 204, 204, 0.45);
+    background-color: white;
 }
 
 a {
@@ -9,9 +14,10 @@ a {
 }
 
 .header {
+    font-family: "Quilted Butterfly";
     color: darkcyan;
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
     margin-top: 0;
 }
 
