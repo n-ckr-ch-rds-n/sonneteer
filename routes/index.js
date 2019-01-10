@@ -10,14 +10,14 @@ router.get('/', function(req, res, next) {
   const rhymeScheme = defaultRhymeScheme;
   const lineLength = defaultLineLength;
   const poem = troubadour.composePoem(rhymeScheme, 12);
-  res.render('index', { title: 'Troubadour', poem, rhymeScheme, lineLength });
+  res.render('index', { title: 'Sonneteer', poem, rhymeScheme, lineLength });
 });
 
 router.post('/', function(req, res, next) {
     const rhymeScheme = req.body.rhyme_scheme;
     const lineLength = parseInt(req.body.line_length);
     const poem = troubadour.composePoem(rhymeScheme, lineLength);
-    res.render('index', { title: 'Troubadour', poem, rhymeScheme, lineLength });
+    res.render('index', { title: 'Sonneteer', poem, rhymeScheme, lineLength });
 });
 
 module.exports = router;
